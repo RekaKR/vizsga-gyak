@@ -24,7 +24,7 @@ function Subscription(props) {
       .catch(error => setRes(false))
       .finally(() => setTimeout(() => props.setShowButton(true), 5000))
 
-    e.preventDefault()
+    //e.preventDefault()
   }
 
 
